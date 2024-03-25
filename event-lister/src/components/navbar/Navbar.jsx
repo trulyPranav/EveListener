@@ -5,6 +5,37 @@ import Modal from 'react-modal'
 import { useState } from 'react'
 const Navbar = () => {
   const [visible, setvisible] = useState(false);
+  const now = new Date();
+  const date = now.getDate().toString().padStart(2,0);
+  const month = now.getMonth().toString().padStart(2,0);
+  const year = now.getFullYear().toString();
+  const day = now.getDay();
+  let dayName = '';
+  switch (day) {
+    case 0:
+      dayName = 'Monday';
+      break;
+    case 1:
+      dayName = 'Tuesday';
+      break;
+    case 2:
+      dayName = 'Wednesday';
+      break;
+    case 3:
+      dayName = 'Thursday';
+      break;
+    case 4:
+      dayName = 'Friday';
+      break;
+    case 5:
+      dayName = 'Saturday';
+      break;
+    case 6:
+      dayName = 'Sunday';
+      break;
+    default:
+      break;
+  }
   
   return (
     <>
@@ -14,7 +45,7 @@ const Navbar = () => {
           <nav className='navbar'>
             
               <h2 className='star'>FindmyDate</h2>
-              <h3 className='moon' id='day'>MONDAY, 00/00/0000</h3>
+              <h3 className='moon' id='day'>{dayName}, {date}/{month}/{year}</h3>
               <button className='sun' onClick={() => setvisible(true)}>Login</button>
               <Modal isOpen = {visible} className='modal' onRequestClose={() => setvisible(false)}>
               <form>

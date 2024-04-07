@@ -3,6 +3,7 @@ import './Navbar.css'
 import Background from "../../assets/image.jpg"
 import Modal from 'react-modal'
 import { useState } from 'react'
+import {FaMoon} from 'react-icons/fa'
 const Navbar = () => {
   const [visible, setvisible] = useState(false);
   const now = new Date();
@@ -62,6 +63,7 @@ const Navbar = () => {
               </form>
               </Modal>
               <button className='sun'>Register</button>
+              <FaMoon size={'2rem'}/>
             
           </nav>
         </div>

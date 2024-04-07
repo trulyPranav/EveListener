@@ -12,25 +12,25 @@ const Navbar = () => {
   const day = now.getDay();
   let dayName = '';
   switch (day) {
-    case 0:
+    case 1:
       dayName = 'Monday';
       break;
-    case 1:
+    case 2:
       dayName = 'Tuesday';
       break;
-    case 2:
+    case 3:
       dayName = 'Wednesday';
       break;
-    case 3:
+    case 4:
       dayName = 'Thursday';
       break;
-    case 4:
+    case 5:
       dayName = 'Friday';
       break;
-    case 5:
+    case 6:
       dayName = 'Saturday';
       break;
-    case 6:
+    case 7:
       dayName = 'Sunday';
       break;
     default:

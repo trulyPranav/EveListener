@@ -3,7 +3,9 @@ import './Navbar.css'
 import Background from "../../assets/image.jpg"
 import Modal from 'react-modal'
 import { useState } from 'react'
-import {FaMoon} from 'react-icons/fa'
+import {FaMoon, FaSearch} from 'react-icons/fa'
+import { IconContext } from "react-icons";
+
 const Navbar = () => {
   const [visible, setvisible] = useState(false);
   const now = new Date();
@@ -63,7 +65,11 @@ const Navbar = () => {
               </form>
               </Modal>
               <button className='sun'>Register</button>
-              <FaMoon size={'2rem'}/>
+              <IconContext.Provider value={{ color: "white", className: "Moonicon" }}>
+                <div>
+                  <FaMoon />
+                </div>
+              </IconContext.Provider>
             
           </nav>
         </div>
@@ -71,6 +77,13 @@ const Navbar = () => {
           <h3 className='main'>Check for your favourite events here!!</h3>
           <form>
           <input type='textbox' placeholder='Search events' className='search'/>
+          <div className="relative">
+          <IconContext.Provider value={{ color: "rgb(130,144,220)", className: "Searchicon" }}>
+                <div>
+                  <FaSearch />
+                </div>
+              </IconContext.Provider>
+          </div>
           </form>
         </div>
       </div>

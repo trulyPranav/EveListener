@@ -36,7 +36,7 @@ h3{
     white-space:nowrap;
     font-size: 28px;
     font-family:'Courier New', Courier, monospace;
-    padding-left:20px;
+    padding-left:25px;
     
 
 }
@@ -79,7 +79,7 @@ h3{
     font-weight: normal;
     color:darkkhaki;
     padding-top: 15px;
-    padding-left: 80px;
+    padding-left: 100px;
     
 }
 img{
@@ -92,12 +92,13 @@ img{
     height:50px;
     border:none;
     border-radius: 120px;
-    margin-left: 500px;
-    font-size: 20px;
-    padding-left: 20px;
+    margin-left:540px;
     background-color: white;
-    color:black;
+    font-size: 20px;
     font-weight:200;
+    box-sizing:border-box;
+    padding-left: 15px;
+    color:cadetblue
 }
 .modal{
     display:flex;
@@ -167,4 +168,16 @@ img{
 }
 .signin:active{
     background-color: deepskyblue;
+}
+.Moonicon{
+    padding-top:45px;
+    padding-left:40px;
+    font-size: 30px;
+}
+.Searchicon{
+    font-size: 30px;
+    padding-left:905px;
+    position: absolute;
+    transform: translateY(-130%);
+    font-weight: 100;
 }

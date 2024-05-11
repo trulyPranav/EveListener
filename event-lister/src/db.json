@@ -1,0 +1,88 @@
+{
+    "events": [
+        {
+            "id": "1",
+            "title": "SmartWorld",
+            "image": "",
+            "description":"An event conducted by IEEE SCT SB where you will learn the steps involved in the making of Filament bulb. It is a one day workshop conducted in aassociation with the electronics department of our college.",
+            "fees": "500",
+            "time": "9:30",
+            "date": "25",
+            "month": "6",
+            "year": "2024",
+            "club": "IEEE"
+        },
+        {
+            "id": "2",
+            "title": "FlutterForward",
+            "image": "",
+            "description":"An event conducted by GDSC Pranav sama where you will begin your first steps in app development using the Flutter. Pranav is an intern in a company called trizlabs where he develops user interface for his clients.Enjoy your journey through the world of flutter and dart.",
+            "fees": "250",
+            "time":"10:00",
+            "date": "26",
+            "month": "8",
+            "year": "2024",
+            "club": "GDSC"
+        },
+        {
+            "id": "3",
+            "title": "Uncharted Minds",
+            "image": "",
+            "description":"An event conducted by GDSC Pranav sama where you will begin your first steps in app development using the Flutter. Pranav is an intern in a company called trizlabs where he develops user interface for his clients.Enjoy your journey through the world of flutter and dart.",
+            "fees": "250",
+            "time":"9:00",
+            "date": "26",
+            "month": "8",
+            "year": "2024",
+            "club": "Landscape"
+        },
+        {
+            "id": "4",
+            "title": "Uncharted Minds",
+            "image": "",
+            "description":"An event conducted by GDSC Pranav sama where you will begin your first steps in app development using the Flutter. Pranav is an intern in a company called trizlabs where he develops user interface for his clients.Enjoy your journey through the world of flutter and dart.",
+            "fees": "250",
+            "time":"9:00",
+            "date": "26",
+            "month": "8",
+            "year": "2024",
+            "club": "Landscape"
+        },
+        {
+            "id": "5",
+            "title": "Uncharted Minds",
+            "image": "",
+            "description":"An event conducted by GDSC Pranav sama where you will begin your first steps in app development using the Flutter. Pranav is an intern in a company called trizlabs where he develops user interface for his clients.Enjoy your journey through the world of flutter and dart.",
+            "fees": "250",
+            "time":"9:00",
+            "date": "26",
+            "month": "8",
+            "year": "2024",
+            "club": "Landscape"
+        },
+        {
+            "id": "6",
+            "title": "Uncharted Minds",
+            "image": "",
+            "description":"An event conducted by GDSC Pranav sama where you will begin your first steps in app development using the Flutter. Pranav is an intern in a company called trizlabs where he develops user interface for his clients.Enjoy your journey through the world of flutter and dart.",
+            "fees": "250",
+            "time":"9:00",
+            "date": "26",
+            "month": "8",
+            "year": "2024",
+            "club": "Landscape"
+        },
+        {
+            "id": "7",
+            "title": "Uncharted Minds",
+            "image": "",
+            "description":"An event conducted by GDSC Pranav sama where you will begin your first steps in app development using the Flutter. Pranav is an intern in a company called trizlabs where he develops user interface for his clients.Enjoy your journey through the world of flutter and dart.",
+            "fees": "250",
+            "time":"9:00",
+            "date": "26",
+            "month": "8",
+            "year": "2024",
+            "club": "Landscape"
+        }
+    ]
+}

@@ -10,7 +10,7 @@ const Hero = () => {
           <form>
           <input type='textbox' placeholder='Search events' className='border rounded-xl px-5'/>
           <div className="relative">
-          <IconContext.Provider value={{ color: "rgb(130,144,220)", className: "mx-[40em] translate-y-[-20px] translate-x-[22px]" }}>
+          <IconContext.Provider value={{ color: "rgb(130,144,220)", className: "mx-[40em] translate-y-[-20px] translate-x-[22px] flex" }}>
                 <div>
                   <FaSearch />
                 </div>

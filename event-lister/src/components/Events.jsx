@@ -1,9 +1,11 @@
 import React from 'react'
 import Event from './Event'
-import axios from 'axios'
 import { useEffect, useState } from 'react'
 import {FaArrowCircleRight, FaArrowCircleLeft} from 'react-icons/fa'
 import { IconContext } from 'react-icons'
+import axios from '../api/axios'
+const EVENT_URL = '/events'
+
 
 const Events = () => {
   
@@ -12,7 +14,7 @@ const Events = () => {
   useEffect(() => {
     const fetchEvents = async () =>{
       try {
-        const res = await axios.get('http://localhost:3000/events');
+        const res = await axios.get(EVENT_URL);
         setEvents(res.data);
       } catch (err) {
         if (err.res) {

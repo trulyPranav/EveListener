@@ -84,5 +84,13 @@
             "year": "2024",
             "club": "Landscape"
         }
+    ],
+    "users": [
+        {
+            "user" : "Kevin",
+            "pwd" : "1234",
+            "events" : "Nothing Posted yet",
+            "token" : "wwwnnnuuu"
+        }
     ]
 }

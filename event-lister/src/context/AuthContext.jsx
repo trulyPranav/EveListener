@@ -1,8 +1,8 @@
 import { createContext, useEffect, useContext, useReducer } from "react";
 
 const initialState = {
-  id : null,
-  name : null
+  user : null,
+  pwd : null
 };
 
 export const authContext = createContext(initialState);
@@ -11,18 +11,18 @@ const authReducer = (state, action) => {
   switch(action.type){
     case 'LOGIN_START':
         return{
-            id: null,
-            name : null
+            user: null,
+            pwd : null
         };
     case 'LOGIN_SUCCESS':
         return{
-            id : action.payload.id,
-            name : action.payload.name
+            user : action.payload.user,
+            pwd : action.payload.pwd
         };
     case 'LOGOUT':
         return{
-            id: null,
-            name : null
+            user: null,
+            pwd : null
         };
     default:
         return state;
@@ -30,9 +30,9 @@ const authReducer = (state, action) => {
   }
 };
 
-export const authContextProvider = ({children}) => {
+export const AuthContextProvider = ({children}) => {
     const [state, dispatch] = useReducer(authReducer, initialState);
-    return <authContext.Provider value = {{id:state.id, name:state.name, dispatch}}>
+    return <authContext.Provider value = {{user:state.user, pwd:state.pwd, dispatch}}>
         {children}
     </authContext.Provider>
 }

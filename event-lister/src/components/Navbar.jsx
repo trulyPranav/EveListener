@@ -7,7 +7,7 @@ const Navbar = () => {
       <div>
         <nav className=''>
             <div className="flex">
-            <h1 className='mr-10 mt-10 text-xl'>FindMyDate</h1>
+            <h1 className='mr-10 mt-10 text-xl'>Akshay Designs</h1>
             <div className='container mx-10 flex pl-[100px] items-center justify-between mt-10'>
             <Link to = '/'>Home</Link>
             <Link to = ''>About</Link>

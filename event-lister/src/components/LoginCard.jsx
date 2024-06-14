@@ -81,7 +81,7 @@ const LoginCard = () => {
         <input type="password" required autoComplete='off' onChange={(e) => setPwd(e.target.value)} value= {pwd} placeholder='Password' className='rounded-xl'/>
         </div>
         <div className="block mt-10">
-          <button className="bg-white px-5 rounded-md">Login</button>
+          <button className="bg-white hover:bg-slate-400 px-5 rounded-md">Login</button>
         </div>
         <div className="text-black mt-5">Are you an community looking to post your events??</div>
         <Link to='/register'><div className='underline mb-5'>Register here</div></Link>
